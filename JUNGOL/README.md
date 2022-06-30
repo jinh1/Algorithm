@@ -8,7 +8,8 @@
 
 # 2. 계획
 
-- 06.30: Beginner 문자열
+- ~~06.30: Beginner 문자열~~
+
 - 07.01: Beginner 자료처리
 - 07.02: Beginner 재귀
 - 07.03: Intermediate 분할정복
