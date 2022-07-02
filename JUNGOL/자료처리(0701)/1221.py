@@ -1,25 +1,25 @@
 # 후위표기법1
 n = int(input())
 lst = input().split()
-number = []
-cal = []
 
-for _ in range(n):
-    now = lst.pop(0)
-    if now != '+' and now != '-' and now != '*' and now != '/':
-        number.append(int(now))
-    else:
-        cal.append(now)
-result = number.pop(0)
-while len(cal) != 0:
-    n_cal = cal.pop(0)
-    if n_cal == '+':
-        result += number.pop(0)
-    elif n_cal == '-':
-        result -= number.pop(0)
-    elif n_cal == '*':
-        result *= number.pop(0)
-    elif n_cal == '/':
-        result /= number.pop(0)
-        result = int(result)
-print(result)
+while 1:
+    if len(lst)==1:
+        print(int(lst[0]))
+        break
+    for i in range(len(lst)):
+        if lst[i] == '+' or lst[i] == '-' or lst[i] == '*' or lst[i] == '/':
+            now_idx = i          
+            break
+    
+    now_cal = lst.pop(now_idx)
+    num_1 = int(lst.pop(now_idx-1))
+    num_2 = int(lst.pop(now_idx-2))
+    if now_cal == '+':
+        lst.insert(now_idx-2,num_1+num_2)
+    elif now_cal == '-':
+        lst.insert(now_idx-2,num_2-num_1)
+    elif now_cal == '*':
+        lst.insert(now_idx-2,num_1*num_2)
+    elif now_cal == '/':
+        lst.insert(now_idx-2,num_2/num_1)
+        
