@@ -6,12 +6,12 @@
 
 
 
-# 2. 계획
+# 2. 계획(정올+프로그래머스)
 
 - ~~06.30: Beginner 문자열~~
 
 - ~~07.01: Beginner 자료처리~~
-- 07.02: Beginner 재귀
+- ~~07.02: Beginner 재귀~~
 - 07.03: Intermediate 분할정복
 - 07.04: Intermediate 자료구조
 - 07.05: Intermediate 탐욕알고리즘
