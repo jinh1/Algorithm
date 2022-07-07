@@ -1,3 +1,4 @@
+# 다시다시
 N, M = map(int, input().split())
 lst = list(map(int, input().split()))
 
