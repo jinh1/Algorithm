@@ -1,3 +1,4 @@
+# 시간초과 ㅠㅠ ㅠ
 N= int(input())
 lst = []
 for _ in range(N):
