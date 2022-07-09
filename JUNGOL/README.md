@@ -8,17 +8,17 @@
 
 # 2. 계획(정올+프로그래머스)
 
-- ~~06.30: Beginner 문자열~~
+- ~~Beginner 문자열~~
 
-- ~~07.01: Beginner 자료처리~~
-- ~~07.02: Beginner 재귀~~
-- 07.03: Intermediate 분할정복
-- 07.04: Intermediate 자료구조
-- 07.05: Intermediate 탐욕알고리즘
-- 07.06: Intermediate 백트래킹-DFS
-- 07.07: Intermediate 그래프탐색-DFS
-- 07.08: Intermediate 그래프탐색-BFS
-- 07.09: Intermediate 동적계획법1
+- ~~Beginner 자료처리~~
+- ~~Beginner 재귀~~
+- Intermediate 분할정복
+- Intermediate 자료구조
+- Intermediate 탐욕알고리즘
+- Intermediate 백트래킹-DFS
+- Intermediate 그래프탐색-DFS
+- Intermediate 그래프탐색-BFS
+- Intermediate 동적계획법1
 
 
 
@@ -29,3 +29,6 @@
 - 07.02(1169, 1221, 1309, 1169, 1175) ✔
 - 07.03(1490, 2817) ✔
 - 07.05(3517) ✔
+
+- 07.09(1695) ✔
+  - int로 받으면 런타임에러나는데 문자로 받으면 통과라니,,, 뭐가 문제지
